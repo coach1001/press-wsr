@@ -3,6 +3,7 @@ package com.presswsr;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rusel.RCTBluetoothSerial.RCTBluetoothSerialPackage;
 import com.github.wuxudong.rncharts.MPAndroidChartPackage;
 import com.ocetnik.timer.BackgroundTimerPackage;
 import com.corbt.keepawake.KCKeepAwakePackage;
@@ -27,7 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
-            new MPAndroidChartPackage(),                                
+            new RCTBluetoothSerialPackage(),
+            new MPAndroidChartPackage(),                                          
             new BackgroundTimerPackage(),
             new KCKeepAwakePackage(),
             new OrientationPackage()

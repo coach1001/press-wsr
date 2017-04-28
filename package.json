@@ -7,9 +7,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "react": "16.0.0-alpha.6",
+    "react-addons-update": "^15.5.2",
     "react-native": "0.43.4",
     "react-native-background-timer": "^1.0.0",
+    "react-native-bluetooth-serial": "^1.0.0-rc1",
     "react-native-charts-wrapper": "^0.2.8",
     "react-native-keep-awake": "^2.0.4",
     "react-native-orientation": "git+https://github.com/yamill/react-native-orientation"
